@@ -35,7 +35,7 @@ const index = () => {
               </h1>
             </div>
             <p className="text-secondary font-normal max-w-md xl:max-w-xl">
-              Creative and detail-oriented software engineer and UI/UX designer with hands-on experience in designing digital platforms and creating engaging content.
+            Creative, community-minded software engineer and UI/UX designer with hands-on experience building intuitive digital platforms and impactful user experiences.
             </p>
           </div>
           <Image
