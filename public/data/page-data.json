@@ -3,54 +3,44 @@
     "contactItems": [
       {
         "type": "email",
-        "label": "hello@imsruthi.com",
+        "label": "u.lina250@gmail.com",
         "icon": "/images/icon/mail-icon.svg",
-        "link": "mailto:hello@imsruthi.com"
+        "link": "mailto:u.lina250@gmail.com"
       },
       {
         "type": "phone",
-        "label": "+901 5588 2500",
+        "label": "+250 791762689",
         "icon": "/images/icon/call-icon.svg",
-        "link": "tel:+90155882500"
-      },
-      {
-        "type": "website",
-        "label": "www.mywebsite.com",
-        "icon": "/images/icon/web-icon.svg",
-        "link": "https://www.mywebsite.com"
+        "link": "tel:+250791762689"
       }
     ],
     "socialItems": [
       {
-        "platform": "dribbble",
-        "icon": "/images/icon/dribble-icon.svg",
-        "link": "https://dribbble.com"
-      },
-      {
         "platform": "linkedin",
         "icon": "/images/icon/linkedin-icon.svg",
-        "link": "https://linkedin.com"
+        "link": "https://www.linkedin.com/in/lina-uwase-995555231/"
       },
       {
-        "platform": "facebook",
-        "icon": "/images/icon/facebook-icon.svg",
-        "link": "https://facebook.com"
+        "platform": "github",
+        "icon": "/images/icon/github-icon.svg",
+        "link": "https://github.com/lina-uwase"
+      },
+      {
+        "platform": "instagram",
+        "icon": "/images/icon/instagram-icon.svg",
+        "link": "https://www.instagram.com/_l_i_.n._a/"
       }
     ]
   },
   "educationData": {
     "education": [
       {
-        "title": "Lipsum Collage - 2010",
-        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form Koramangala collage."
+        "title": "Rwanda Coding Academy - 2021-2024",
+        "description": "High School Diploma, Advanced Studies in Software Development & Embedded Systems. Focused on software development and digital design, gaining skills in Node.js, Java, and UI/UX design. Developed hands-on projects emphasizing user engagement and visual communication."
       },
       {
-        "title": "Master Diploma - 2012",
-        "description": "Combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."
-      },
-      {
-        "title": "Master in User Experience - 2014",
-        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
+        "title": "Fawe Girls’ School - 2018-2021",
+        "description": "Ordinary Level Result Slip. Graduated with distinction in English and Sciences. Awarded a full scholarship to the Rwanda Coding Academy."
       }
     ],
     "skills": [
@@ -67,12 +57,12 @@
       {
         "name": "Sketch",
         "icon": "/images/home/education-skill/sketch-icon.svg",
-        "rating": 4
+        "rating": 5
       },
       {
         "name": "Adobe XD",
         "icon": "/images/home/education-skill/adobe-icon.svg",
-        "rating": 4
+        "rating": 5
       },
       {
         "name": "Framer",
@@ -80,37 +70,37 @@
         "rating": 5
       },
       {
-        "name": "Invasion",
-        "icon": "/images/home/education-skill/invision-icon.svg",
-        "rating": 3
+        "name": "Software Development",
+        "icon": "/images/home/education-skill/tech-icon.svg",
+        "rating": 5
       }
     ]
   },
   "contactLinks": {
     "socialLinks": [
       {
-        "title": "Dribble",
-        "href": "/"
-      },
-      {
-        "title": "Facebook",
-        "href": "/"
-      },
-      {
         "title": "LinkedIn",
-        "href": "/"
+        "href": "https://www.linkedin.com/in/lina-uwase-995555231/"
+      },
+      {
+        "title": "GitHub",
+        "href": "https://github.com/lina-uwase"
+      },
+      {
+        "title": "Instagram",
+        "href": "https://www.instagram.com/_l_i_.n._a/"
       }
     ],
     "contactInfo": [
       {
         "type": "email",
-        "label": "hello@imsruthi.com",
-        "link": "mailto:hello@imsruthi.com"
+        "label": "u.lina250@gmail.com",
+        "link": "mailto:u.lina250@gmail.com"
       },
       {
         "type": "phone",
-        "label": "+901 5588 2500",
-        "link": "tel:+90155882500"
+        "label": "+250 791762689",
+        "link": "tel:+250791762689"
       }
     ]
   }

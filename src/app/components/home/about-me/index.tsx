@@ -35,19 +35,14 @@ const AboutMe = () => {
 
               <div className="w-full lg:max-w-2xl flex-1">
                 <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don't look
-                  even slightly believable. If you are going to use a passage of
-                  Lorem Ipsum, you need to be sure there isn't anything
-                  embarrassing hidden in the middle of text.
+                  Bridging the gap between complex government systems and the citizens who use them. I combine software engineering with human-centered design to solve real-world community problems.
                 </p>
 
                 <div className="grid grid-cols-3 py-10 xl:py-16 gap-5 border-b border-mistGray">
                   {[
-                    { count: "06", label: "Years of experience" },
-                    { count: "165+", label: "Happy Clients" },
-                    { count: "1800+", label: "Project Completed" },
+                    { count: "04+", label: "Years of experience" },
+                    { count: "10+", label: "Happy Clients" },
+                    { count: "10+", label: "Projects Completed" },
                   ].map((item, i) => (
                     <div key={i}>
                       <h3>{item.count}</h3>
@@ -58,25 +53,51 @@ const AboutMe = () => {
                   ))}
                 </div>
 
-                <div className="pt-8 xl:pt-14 flex flex-col sm:flex-row items-center gap-4">
-                  <div className="flex items-center gap-3.5">
-                    <Image
-                      src={getImgPath("/images/icon/lang-icon.svg")}
-                      alt="lang-icon"
-                      width={30}
-                      height={30}
-                    />
-                    <p className="text-base xl:text-xl text-black">Language</p>
+                <div className="pt-8 xl:pt-14 flex flex-col gap-6">
+                  <div className="flex flex-col sm:flex-row items-center gap-4">
+                    <div className="flex items-center gap-3.5">
+                      <Image
+                        src={getImgPath("/images/icon/lang-icon.svg")}
+                        alt="lang-icon"
+                        width={30}
+                        height={30}
+                      />
+                      <p className="text-base xl:text-xl text-black">Languages</p>
+                    </div>
+                    <div className="flex flex-wrap justify-center items-center gap-2.5">
+                      {["English", "Kinyarwanda", "French"].map((lang) => (
+                        <p
+                          key={lang}
+                          className="bg-white py-2 md:py-3.5 px-4 md:px-5 w-fit rounded-full text-base xl:text-xl"
+                        >
+                          {lang}
+                        </p>
+                      ))}
+                    </div>
                   </div>
-                  <div className="flex flex-wrap justify-center items-center gap-2.5">
-                    {["English", "Hindi", "Malayalam"].map((lang) => (
-                      <p
-                        key={lang}
-                        className="bg-white py-2 md:py-3.5 px-4 md:px-5 w-fit rounded-full text-base xl:text-xl"
-                      >
-                        {lang}
-                      </p>
-                    ))}
+
+                  <div className="flex flex-col sm:flex-row items-center gap-4 overflow-hidden">
+                    <div className="flex items-center gap-3.5 flex-shrink-0 z-10 bg-softGray pr-4">
+                      <Image
+                        src={getImgPath("/images/icon/tech-icon.svg")}
+                        alt="tech-icon"
+                        width={30}
+                        height={30}
+                      />
+                      <p className="text-base xl:text-xl text-black">Tech Stack</p>
+                    </div>
+                    <div className="flex-1 overflow-hidden relative">
+                      <div className="flex items-center gap-2.5 animate-marquee whitespace-nowrap">
+                        {[...["Java", "Node.js", "React", "Next.js", "System Arch", "Python", "SQL"], ...["Java", "Node.js", "React", "Next.js", "System Arch", "Python", "SQL"]].map((tech, index) => (
+                          <p
+                            key={`${tech}-${index}`}
+                            className="bg-white py-2 md:py-3.5 px-4 md:px-5 w-fit rounded-full text-base xl:text-xl inline-block"
+                          >
+                            {tech}
+                          </p>
+                        ))}
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

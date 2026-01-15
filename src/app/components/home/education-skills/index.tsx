@@ -69,7 +69,7 @@ const EducationSkills = () => {
                           width={70}
                           height={70}
                         />
-                        <p className="text-black font-normal">{value?.name}</p>
+                        <p className="text-black font-normal text-center">{value?.name}</p>
                       </div>
                       <div className="flex gap-1">
                         {[...Array(5)].map((_, i) => (

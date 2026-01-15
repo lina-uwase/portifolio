@@ -21,10 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={bricolageGrotesque.className}>
+      <body className={bricolageGrotesque.className} suppressHydrationWarning>
         <Header />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

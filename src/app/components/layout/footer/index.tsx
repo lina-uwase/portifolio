@@ -13,24 +13,7 @@ const Footer = () => {
             <div className="flex-grow h-px bg-black" />
           </div>
           <p className="text-secondary">
-            Designed by{" "}
-            <a
-              href="https://getnextjstemplates.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary hover:underline"
-            >
-              getnextjstemplates
-            </a>{" "}
-            • Distributed by{" "}
-            <a
-              href="https://themewagon.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary hover:underline"
-            >
-              ThemeWagon
-            </a>
+            © 2025 Lina Uwase. Built with Next.js
           </p>
         </div>
       </div>

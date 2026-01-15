@@ -3,32 +3,32 @@ import React from 'react';
 const ExperienceSec = () => {
     const experiences = [
         {
-            year: "2018",
-            title: "Junior UX Designer",
-            company: "www.startup.com",
+            year: "2025 – Present",
+            title: "Frontend Developer",
+            company: "Ministry of Infrastructure",
             type: "Fulltime",
-            description: "Suffered alteration in some form by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum"
+            description: "Designed user-friendly interfaces for government platforms, enhancing accessibility and engagement. Collaborated with government officials and engineering teams to create and maintain responsive websites for the ministry, ensuring high performance."
         },
         {
-            year: "2019",
-            title: "Senior UX Designer",
-            company: "www.googly.com",
-            type: "Remote",
-            description: "Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem"
+            year: "2024 – 2025",
+            title: "Frontend Developer Intern",
+            company: "Ministry of Infrastructure",
+            type: "Internship",
+            description: "Assisted in developing software solutions for public platforms, focusing on intuitive design and usability."
         },
         {
-            year: "2020-2022",
-            title: "Team Lead Designer",
-            company: "www.company.com",
-            type: "Fulltime",
-            description: "Handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated"
+            year: "2022 – 2023",
+            title: "Software Engineer Intern",
+            company: "Hence Technologies",
+            type: "Internship",
+            description: "Managed project timelines and coordinated tasks to ensure the timely delivery of design solutions. Developed and tested software tools, ensuring usability and functionality. Collaborated with team members to create polished, user-focused digital products."
         },
         {
-            year: "2023+",
-            title: "Team Lead Designer",
-            company: "www.latest.com",
-            type: "Fulltime",
-            description: "Release of Letraset sheets containing Lorem Ipsum passages and more recently with desktop publishing software"
+            year: "2021 – 2022",
+            title: "UI/UX Designer Intern",
+            company: "Hence Technologies",
+            type: "Internship",
+            description: "Assisted in project planning and tracking progress to meet deadlines efficiently. Designed and implemented user interfaces and digital experiences for clients. Applied visual design and storytelling principles to improve user engagement."
         }
     ];
 

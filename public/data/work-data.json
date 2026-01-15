@@ -1,40 +1,35 @@
 {
   "workData": [
     {
-      "image": "/images/work/work-img-1.jpg",
-      "title": "Mug Sticker Designing",
-      "client": "John Honnai",
-      "slug": "mug-sticker-designing"
+      "image": "/images/work/aaid.png",
+      "title": "Incident Notification System",
+      "client": "AAID",
+      "slug": "https://www.mininfra.gov.rw/1/aviation-accident-and-incident-investigation",
+      "description": "Designed a user-friendly alert platform to report and track aviation accidents and incidents in real time, improving response time and coordination.",
+      "objectPosition": "object-left-top"
     },
     {
-      "image": "/images/work/work-img-2.jpg",
-      "title": "Mobile App Design",
-      "client": "John Honnai",
-      "slug": "mobile-app-design"
+      "image": "/images/work/wash-mis-final.png",
+      "title": "WASH MIS",
+      "client": "Ministry of Infrastructure (Govt. of Rwanda)",
+      "slug": "https://www.mininfra.gov.rw/water-and-sanitation",
+      "description": "Created a nationwide system to manage water, sanitation, and hygiene programs, streamlining data collection and monitoring.",
+      "objectPosition": "object-center"
     },
     {
-      "image": "/images/work/work-img-3.jpg",
-      "title": "Fashion Website Template",
-      "client": "John Honnai",
-      "slug": "fashion-website-template"
+      "image": "/images/work/co-lab-final.png",
+      "title": "CO-LAB",
+      "client": "Embedded Platform",
+      "slug": "#",
+      "description": "A health tech platform democratization access to diagnostic tests, allowing patients to get tested anywhere, anytime. We address test inaccessibility in underserved communities.",
+      "objectPosition": "object-top"
     },
     {
-      "image": "/images/work/work-img-4.jpg",
-      "title": "Book Cover Design",
-      "client": "John Honnai",
-      "slug": "book-cover-design"
-    },
-    {
-      "image": "/images/work/work-img-5.jpg",
-      "title": "Mobile App Design",
-      "client": "John Honnai",
-      "slug": "mobile-app-design"
-    },
-    {
-      "image": "/images/work/work-img-6.jpg",
-      "title": "Mug Sticker Designing",
-      "client": "John Honnai",
-      "slug": "mug-sticker-designing"
+      "image": "/images/work/child-edu.jpg",
+      "title": "ChildEdu Community Service",
+      "client": "Local Community",
+      "slug": "#",
+      "description": "Designed and delivered educational content to 50+ local children around our high school, teaching basic computer skills and digital creativity."
     }
   ]
 }
